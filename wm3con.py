@@ -34,7 +34,7 @@ MAPS = {
         'corners': (1, 4, 23, 73),
         # lat top, lon left, lat bottom, lon right
         'coords': [90.0, -180.0, -90.0, 180.0],
-        'file': 'map-world-01.txt',
+        'file': '/usr/share/wm3con/map-world-01.txt',
     }
 }
 
