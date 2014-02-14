@@ -1,6 +1,7 @@
 # Maintainer: Christian Rebischke <Q2hyaXMuUmViaXNjaGtlQGdtYWlsLmNvbQo= | base64 -d>
 
 pkgname=wm3con-git
+pkgver=8.913c84c
 pkgrel=1
 pkgdesc="F-Secure Virus World Map Console Edition"
 arch=('any')
