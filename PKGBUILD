@@ -1,7 +1,7 @@
 # Maintainer: Christian Rebischke <Q2hyaXMuUmViaXNjaGtlQGdtYWlsLmNvbQo= | base64 -d>
 
 pkgname=wm3con-git
-pkgver=4.c711d8d
+pkgver=6.8702b62
 pkgrel=1
 pkgdesc="F-Secure Virus World Map Console Edition"
 arch=('any')
@@ -22,16 +22,16 @@ package() {
   install -D -m755 "${srcdir}/wm3con/wm3con.py" \
     "${pkgdir}/usr/bin/wm3con.py"
   
-  install -D m644 "${srcdir}/wm3con/map-world-01.txt" \
+  install -D -m644 "${srcdir}/wm3con/map-world-01.txt" \
     "${pkgdir}/usr/share/wm3con/map-world-01.txt"
 
-  install -D m644 "${srcdir}/wm3con/README.md" \
+  install -D -m644 "${srcdir}/wm3con/README.md" \
     "${pkgdir}/usr/share/wm3con/README.md"
 
-  install -D m644 "${srcdir}/wm3con/LICENSE.txt" \
+  install -D -m644 "${srcdir}/wm3con/LICENSE.txt" \
     "${pkgdir}/usr/share/wm3con/LICENSE.txt"
 
-  install -D m644 "${srcdir}/wm3con/screenshot01.jpg" \
+  install -D -m644 "${srcdir}/wm3con/screenshot01.jpg" \
     "${pkgdir}/usr/share/wm3con/screenshot01.jpg"
 }
 
