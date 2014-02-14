@@ -29,7 +29,7 @@ package() {
     "${pkgdir}/usr/share/wm3con/README.md"
 
   install -D -m644 "${srcdir}/wm3con/LICENSE.txt" \
-    "${pkgdir}/usr/share/wm3con/LICENSE.txt"
+    "${pkgdir}/usr/share/licenses/wm3con/LICENSE.txt"
 
   install -D -m644 "${srcdir}/wm3con/screenshot01.jpg" \
     "${pkgdir}/usr/share/wm3con/screenshot01.jpg"
